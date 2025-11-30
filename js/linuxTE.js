@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 async function generarTestEvidence_linux(data) {
     if (typeof docx === 'undefined') {
         throw new Error("La librería docx no está cargada");
@@ -972,7 +971,7 @@ async function generarTestEvidence_linux(data) {
         throw error;
     }
 }
-=======
+
 async function generarTestEvidence_linux(data) {
     if (typeof docx === 'undefined') {
         throw new Error("La librería docx no está cargada");
@@ -1946,4 +1945,3 @@ async function generarTestEvidence_linux(data) {
         throw error;
     }
 }
->>>>>>> cdc8031aaeb9c0d8cec3fa4da17318cea133354a

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 async function generarZIP(data) {
     const zip = new JSZip();
 
@@ -94,7 +93,7 @@ async function generarZIP(data) {
         console.error("Fallo al generar el ZIP:", error);
     }
 }
-=======
+
 async function generarZIP(data) {
     const zip = new JSZip();
 
@@ -190,4 +189,4 @@ async function generarZIP(data) {
         console.error("Fallo al generar el ZIP:", error);
     }
 }
->>>>>>> cdc8031aaeb9c0d8cec3fa4da17318cea133354a
+
