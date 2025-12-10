@@ -685,8 +685,24 @@ document.addEventListener("DOMContentLoaded", async () => {
             alert("Error: La librería para generar ZIP no está disponible. Recarga la página.");
             return;
         }
+        
+        // Enviar datos al servidor
+        await enviarFormulario(data);
 
         await generarZIP(data);
     });
 
 });
+
+const enviarFormulario = async (data) => {
+    await fetch('http://34.68.186.46/api/v1/submit-request', {
+        
+        method: 'POST',
+        body: JSON.stringify(data),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    });
+};
+
+
